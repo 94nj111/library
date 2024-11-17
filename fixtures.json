@@ -1,0 +1,582 @@
+[
+  {
+    "model": "catalog.literaryformat",
+    "pk": 1,
+    "fields": {
+      "name": "Novel"
+    }
+  },
+  {
+    "model": "catalog.literaryformat",
+    "pk": 2,
+    "fields": {
+      "name": "Poetry"
+    }
+  },
+  {
+    "model": "catalog.literaryformat",
+    "pk": 3,
+    "fields": {
+      "name": "Drama"
+    }
+  },
+  {
+    "model": "catalog.literaryformat",
+    "pk": 4,
+    "fields": {
+      "name": "Short Story"
+    }
+  },
+  {
+    "model": "catalog.literaryformat",
+    "pk": 5,
+    "fields": {
+      "name": "Essay"
+    }
+  },
+  {
+    "model": "catalog.literaryformat",
+    "pk": 6,
+    "fields": {
+      "name": "Memoir"
+    }
+  },
+  {
+    "model": "catalog.literaryformat",
+    "pk": 7,
+    "fields": {
+      "name": "Biography"
+    }
+  },
+  {
+    "model": "catalog.literaryformat",
+    "pk": 8,
+    "fields": {
+      "name": "Science Fiction"
+    }
+  },
+  {
+    "model": "catalog.literaryformat",
+    "pk": 9,
+    "fields": {
+      "name": "Fantasy"
+    }
+  },
+  {
+    "model": "catalog.literaryformat",
+    "pk": 10,
+    "fields": {
+      "name": "Horror"
+    }
+  },
+  {
+    "model": "catalog.literaryformat",
+    "pk": 11,
+    "fields": {
+      "name": "Thriller"
+    }
+  },
+  {
+    "model": "catalog.literaryformat",
+    "pk": 12,
+    "fields": {
+      "name": "Mystery"
+    }
+  },
+  {
+    "model": "catalog.literaryformat",
+    "pk": 13,
+    "fields": {
+      "name": "Historical Fiction"
+    }
+  },
+  {
+    "model": "catalog.literaryformat",
+    "pk": 14,
+    "fields": {
+      "name": "Adventure"
+    }
+  },
+  {
+    "model": "catalog.literaryformat",
+    "pk": 15,
+    "fields": {
+      "name": "Self-Help"
+    }
+  },
+  {
+    "model": "catalog.literaryformat",
+    "pk": 16,
+    "fields": {
+      "name": "Romance"
+    }
+  },
+  {
+    "model": "catalog.literaryformat",
+    "pk": 17,
+    "fields": {
+      "name": "Satire"
+    }
+  },
+  {
+    "model": "catalog.literaryformat",
+    "pk": 18,
+    "fields": {
+      "name": "Comedy"
+    }
+  },
+  {
+    "model": "catalog.literaryformat",
+    "pk": 19,
+    "fields": {
+      "name": "Graphic Novel"
+    }
+  },
+  {
+    "model": "catalog.literaryformat",
+    "pk": 20,
+    "fields": {
+      "name": "Travel Writing"
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 1,
+    "fields": {
+      "username": "tolstoy",
+      "first_name": "Leo",
+      "last_name": "Tolstoy",
+      "pseudonym": null
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 2,
+    "fields": {
+      "username": "austen",
+      "first_name": "Jane",
+      "last_name": "Austen",
+      "pseudonym": null
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 3,
+    "fields": {
+      "username": "dostoevsky",
+      "first_name": "Fyodor",
+      "last_name": "Dostoevsky",
+      "pseudonym": null
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 4,
+    "fields": {
+      "username": "orwell",
+      "first_name": "George",
+      "last_name": "Orwell",
+      "pseudonym": null
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 5,
+    "fields": {
+      "username": "hemingway",
+      "first_name": "Ernest",
+      "last_name": "Hemingway",
+      "pseudonym": null
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 6,
+    "fields": {
+      "username": "hugo",
+      "first_name": "Victor",
+      "last_name": "Hugo",
+      "pseudonym": null
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 7,
+    "fields": {
+      "username": "dickens",
+      "first_name": "Charles",
+      "last_name": "Dickens",
+      "pseudonym": null
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 8,
+    "fields": {
+      "username": "joyce",
+      "first_name": "James",
+      "last_name": "Joyce",
+      "pseudonym": null
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 9,
+    "fields": {
+      "username": "fitzgerald",
+      "first_name": "F. Scott",
+      "last_name": "Fitzgerald",
+      "pseudonym": null
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 10,
+    "fields": {
+      "username": "woolf",
+      "first_name": "Virginia",
+      "last_name": "Woolf",
+      "pseudonym": null
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 11,
+    "fields": {
+      "username": "hawthorne",
+      "first_name": "Nathaniel",
+      "last_name": "Hawthorne",
+      "pseudonym": null
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 12,
+    "fields": {
+      "username": "bronte",
+      "first_name": "Charlotte",
+      "last_name": "Bronte",
+      "pseudonym": null
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 13,
+    "fields": {
+      "username": "verne",
+      "first_name": "Jules",
+      "last_name": "Verne",
+      "pseudonym": null
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 14,
+    "fields": {
+      "username": "lovecraft",
+      "first_name": "H.P.",
+      "last_name": "Lovecraft",
+      "pseudonym": null
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 15,
+    "fields": {
+      "username": "twain",
+      "first_name": "Mark",
+      "last_name": "Twain",
+      "pseudonym": null
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 16,
+    "fields": {
+      "username": "steinbeck",
+      "first_name": "John",
+      "last_name": "Steinbeck",
+      "pseudonym": null
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 17,
+    "fields": {
+      "username": "shelley",
+      "first_name": "Mary",
+      "last_name": "Shelley",
+      "pseudonym": null
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 18,
+    "fields": {
+      "username": "camus",
+      "first_name": "Albert",
+      "last_name": "Camus",
+      "pseudonym": null
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 19,
+    "fields": {
+      "username": "kafka",
+      "first_name": "Franz",
+      "last_name": "Kafka",
+      "pseudonym": null
+    }
+  },
+  {
+    "model": "catalog.author",
+    "pk": 20,
+    "fields": {
+      "username": "pynchon",
+      "first_name": "Thomas",
+      "last_name": "Pynchon",
+      "pseudonym": null
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 1,
+    "fields": {
+      "title": "War and Peace",
+      "price": "25.99",
+      "format": 1,
+      "authors": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 2,
+    "fields": {
+      "title": "Pride and Prejudice",
+      "price": "19.99",
+      "format": 16,
+      "authors": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 3,
+    "fields": {
+      "title": "Crime and Punishment",
+      "price": "18.99",
+      "format": 13,
+      "authors": [
+        3
+      ]
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 4,
+    "fields": {
+      "title": "1984",
+      "price": "21.50",
+      "format": 8,
+      "authors": [
+        4
+      ]
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 5,
+    "fields": {
+      "title": "The Old Man and the Sea",
+      "price": "14.00",
+      "format": 14,
+      "authors": [
+        5
+      ]
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 6,
+    "fields": {
+      "title": "Les Mis\u00e9rables",
+      "price": "22.00",
+      "format": 1,
+      "authors": [
+        6
+      ]
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 7,
+    "fields": {
+      "title": "Great Expectations",
+      "price": "20.50",
+      "format": 13,
+      "authors": [
+        7
+      ]
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 8,
+    "fields": {
+      "title": "Ulysses",
+      "price": "24.99",
+      "format": 17,
+      "authors": [
+        8
+      ]
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 9,
+    "fields": {
+      "title": "The Great Gatsby",
+      "price": "15.75",
+      "format": 9,
+      "authors": [
+        9
+      ]
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 10,
+    "fields": {
+      "title": "To the Lighthouse",
+      "price": "19.80",
+      "format": 5,
+      "authors": [
+        10
+      ]
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 11,
+    "fields": {
+      "title": "The Scarlet Letter",
+      "price": "17.25",
+      "format": 12,
+      "authors": [
+        11
+      ]
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 12,
+    "fields": {
+      "title": "Jane Eyre",
+      "price": "18.50",
+      "format": 16,
+      "authors": [
+        12
+      ]
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 13,
+    "fields": {
+      "title": "Twenty Thousand Leagues Under the Sea",
+      "price": "20.00",
+      "format": 8,
+      "authors": [
+        13
+      ]
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 14,
+    "fields": {
+      "title": "The Call of Cthulhu",
+      "price": "13.99",
+      "format": 10,
+      "authors": [
+        14
+      ]
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 15,
+    "fields": {
+      "title": "Adventures of Huckleberry Finn",
+      "price": "18.99",
+      "format": 14,
+      "authors": [
+        15
+      ]
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 16,
+    "fields": {
+      "title": "The Grapes of Wrath",
+      "price": "21.50",
+      "format": 15,
+      "authors": [
+        16
+      ]
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 17,
+    "fields": {
+      "title": "Frankenstein",
+      "price": "16.99",
+      "format": 10,
+      "authors": [
+        17
+      ]
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 18,
+    "fields": {
+      "title": "The Stranger",
+      "price": "14.50",
+      "format": 19,
+      "authors": [
+        18
+      ]
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 19,
+    "fields": {
+      "title": "The Trial",
+      "price": "15.00",
+      "format": 19,
+      "authors": [
+        19
+      ]
+    }
+  },
+  {
+    "model": "catalog.book",
+    "pk": 20,
+    "fields": {
+      "title": "Gravity's Rainbow",
+      "price": "23.99",
+      "format": 7,
+      "authors": [
+        20
+      ]
+    }
+  }
+]

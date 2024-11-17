@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+	<h1>Title: {{ book.title }}</h1>
+	<p><strong>Price: {{ book.price }}</strong></p>
+	<p><strong>Format: {{ book.format }}</strong></p>
+	<div class="ml-3">
+		<h3>Authors:</h3>
+		{% for el in book.authors.all %}
+			<hr>
+			<p>{{ el.id }}. {{ el.first_name }} {{ el.last_name }} {% if el.pseudonym %}{{el.pseudonym}}{% endif %}</p>
+		{% empty %}
+		<p>No authors!</p>
+		{% endfor %}
+	</div>
+{% endblock  %}
